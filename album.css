@@ -1,17 +1,21 @@
 .col-md-4 .card {
-  height: 355px;
+  height: 315px;
+}
+
+.schedule {
+  background-color: #fff;
 }
 
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin-bottom: 0;
   background-color: #fff;
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -28,8 +32,8 @@
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer p {
