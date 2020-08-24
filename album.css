@@ -1,16 +1,59 @@
+.amazon-link {
+  height: 8rem;
+  width: 13rem;
+}
+
+.btn-lg {
+  padding: 1rem 1rem;
+  min-width: 275px;
+  line-height: 1.4;
+}
+
+.btn-primary {
+  background-color: #D94E4F;
+  border-color: #D94E4F;
+}
+
+.btn-primary:hover {
+  background-color: #1B313F;
+  border-color: #1B313F;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #1B313F;
+  border-color: #1B313F;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #1B313F;
+  border-color: #1B313F;
+  box-shadow: 0 0 0 0.2rem #1B313F;
+}
+
 .col-md-4 .card {
   height: 315px;
 }
 
-.schedule {
-  background-color: #fff;
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.homebg {
+  background: url('./assets/images/homebg.png') no-repeat top right;
+  background-size: contain;
 }
 
 .jumbotron {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: transparent !important;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -31,11 +74,41 @@
   max-width: 40rem;
 }
 
-footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.list-group-item {
+  border: none;
 }
 
-footer p {
-  margin-bottom: .25rem;
+.nav-color {
+  background-color: #D94E4F;
+}
+
+.provision {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.public-link {
+  color: white;
+}
+
+.public-link p {
+  margin-bottom: 0;
+}
+
+.public-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.schedule {
+  background-color: #fff;
+}
+
+.table thead th {
+  background-color: #1B313F;
+  color: #fff;
+}
+
+.text-muted {
+  color: #1B313F !important;
 }
