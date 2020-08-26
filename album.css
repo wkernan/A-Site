@@ -12,6 +12,7 @@
 .btn-primary {
   background-color: #D94E4F;
   border-color: #D94E4F;
+  margin-bottom: .5rem;
 }
 
 .btn-primary:hover {
@@ -75,6 +76,7 @@ footer p {
 }
 
 .list-group-item {
+  background-color: transparent;
   border: none;
 }
 
@@ -102,6 +104,11 @@ footer p {
 
 .schedule {
   background-color: #fff;
+}
+
+.social-links {
+  height: 8rem;
+  width: 5rem;
 }
 
 .table thead th {
