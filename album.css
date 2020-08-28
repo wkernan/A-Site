@@ -3,6 +3,10 @@
   width: 13rem;
 }
 
+.bg-dark {
+  background-color: #1B313F !important;
+}
+
 .btn-lg {
   padding: 1rem 1rem;
   width: 100%;
