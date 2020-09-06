@@ -36,8 +36,42 @@
   box-shadow: 0 0 0 0.2rem #1B313F;
 }
 
+.btn-secondary {
+  background-color: #1B313F;
+  border-color: #1B313F;
+  width: 100%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.btn-secondary:hover {
+  background-color: #21C8C8;
+  border-color: #21C8C8;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: #21C8C8;
+  border-color: #21C8C8;
+}
+
+.btn-secondary:focus {
+  color: #fff;
+  background-color: #21C8C8;
+  border-color: #21C8C8;
+  box-shadow: 0 0 0 0.2rem #21C8C8;
+}
+
 .col-md-4 .card {
   height: 315px;
+}
+
+.collapse {
+  margin-bottom: 1rem;
+}
+
+.corp-list {
+  margin: auto;
+  text-align: left;
 }
 
 footer {
@@ -87,6 +121,7 @@ footer p {
 .list-group-item {
   background-color: transparent;
   border: none;
+  color: #1B313F;
 }
 
 .nav-color {
@@ -96,6 +131,10 @@ footer p {
 .provision {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.public {
+  font-family: 'Trebuchet MS';
 }
 
 .public-link {
